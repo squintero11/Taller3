@@ -81,41 +81,38 @@ public class Main {
         System.out.println("=== CARGANDO MATERIALES DE EJEMPLO ===");
         System.out.println("Cargando 10 Libros, 10 Revistas y 10 Películas uno por uno...\n");
 
-        // 10 Libros
-        biblioteca.add(new Libro(contadorId++, "El Principito", 96, "Antoine de Saint-Exupéry"));
-        biblioteca.add(new Libro(contadorId++, "Cien Años de Soledad", 417, "Gabriel García Márquez"));
-        biblioteca.add(new Libro(contadorId++, "1984", 328, "George Orwell"));
-        biblioteca.add(new Libro(contadorId++, "Don Quijote", 863, "Miguel de Cervantes"));
-        biblioteca.add(new Libro(contadorId++, "La Odisea", 541, "Homero"));
-        biblioteca.add(new Libro(contadorId++, "Moby Dick", 635, "Herman Melville"));
-        biblioteca.add(new Libro(contadorId++, "Orgullo y Prejuicio", 432, "Jane Austen"));
-        biblioteca.add(new Libro(contadorId++, "El Señor de los Anillos", 1178, "J.R.R. Tolkien"));
-        biblioteca.add(new Libro(contadorId++, "Crónica de una Muerte Anunciada", 160, "Gabriel García Márquez"));
-        biblioteca.add(new Libro(contadorId++, "Fahrenheit 451", 249, "Ray Bradbury"));
+        biblioteca.add(new Libro(contadorId++, "La Metamorfosis", 201, "Franz Kafka"));
+        biblioteca.add(new Libro(contadorId++, "El Código Da Vinci", 454, "Dan Brown"));
+        biblioteca.add(new Libro(contadorId++, "Harry Potter y la Piedra Filosofal", 309, "J.K. Rowling"));
+        biblioteca.add(new Libro(contadorId++, "Los Juegos del Hambre", 374, "Suzanne Collins"));
+        biblioteca.add(new Libro(contadorId++, "El Alquimista", 208, "Paulo Coelho"));
+        biblioteca.add(new Libro(contadorId++, "Drácula", 418, "Bram Stoker"));
+        biblioteca.add(new Libro(contadorId++, "El Hobbit", 310, "J.R.R. Tolkien"));
+        biblioteca.add(new Libro(contadorId++, "El Perfume", 255, "Patrick Süskind"));
+        biblioteca.add(new Libro(contadorId++, "La Sombra del Viento", 565, "Carlos Ruiz Zafón"));
+        biblioteca.add(new Libro(contadorId++, "El Psicoanalista", 468, "John Katzenbach"));
 
-        // 10 Revistas
-        biblioteca.add(new Revista(contadorId++, "National Geographic", "Mensual", 101));
-        biblioteca.add(new Revista(contadorId++, "Time", "Semanal", 102));
-        biblioteca.add(new Revista(contadorId++, "Vogue", "Mensual", 103));
-        biblioteca.add(new Revista(contadorId++, "Forbes", "Semanal", 104));
-        biblioteca.add(new Revista(contadorId++, "National Geographic Kids", "Mensual", 105));
-        biblioteca.add(new Revista(contadorId++, "People", "Semanal", 106));
-        biblioteca.add(new Revista(contadorId++, "Rolling Stone", "Semanal", 107));
-        biblioteca.add(new Revista(contadorId++, "Scientific American", "Mensual", 108));
-        biblioteca.add(new Revista(contadorId++, "The New Yorker", "Semanal", 109));
-        biblioteca.add(new Revista(contadorId++, "Wired", "Mensual", 110));
+        biblioteca.add(new Revista(contadorId++, "Muy Interesante", "Mensual", 201));
+        biblioteca.add(new Revista(contadorId++, "Semana", "Semanal", 202));
+        biblioteca.add(new Revista(contadorId++, "Car and Driver", "Mensual", 203));
+        biblioteca.add(new Revista(contadorId++, "PC World", "Mensual", 204));
+        biblioteca.add(new Revista(contadorId++, "Runner’s World", "Mensual", 205));
+        biblioteca.add(new Revista(contadorId++, "Men’s Health", "Mensual", 206));
+        biblioteca.add(new Revista(contadorId++, "Women’s Health", "Mensual", 207));
+        biblioteca.add(new Revista(contadorId++, "Historia National Geographic", "Mensual", 208));
+        biblioteca.add(new Revista(contadorId++, "Emprendedores", "Mensual", 209));
+        biblioteca.add(new Revista(contadorId++, "Fotogramas", "Mensual", 210));
 
-        // 10 Películas
-        biblioteca.add(new Pelicula(contadorId++, "El Padrino", 175, "Francis Ford Coppola"));
-        biblioteca.add(new Pelicula(contadorId++, "Pulp Fiction", 154, "Quentin Tarantino"));
-        biblioteca.add(new Pelicula(contadorId++, "El Señor de los Anillos: La Comunidad del Anillo", 178, "Peter Jackson"));
-        biblioteca.add(new Pelicula(contadorId++, "El Resplandor", 146, "Stanley Kubrick"));
-        biblioteca.add(new Pelicula(contadorId++, "Matrix", 136, "Lana Wachowski, Lilly Wachowski"));
-        biblioteca.add(new Pelicula(contadorId++, "Interstellar", 169, "Christopher Nolan"));
-        biblioteca.add(new Pelicula(contadorId++, "El Laberinto del Fauno", 118, "Guillermo del Toro"));
-        biblioteca.add(new Pelicula(contadorId++, "Parásitos", 132, "Bong Joon-ho"));
-        biblioteca.add(new Pelicula(contadorId++, "Coco", 105, "Lee Unkrich, Adrian Molina"));
-        biblioteca.add(new Pelicula(contadorId++, "Toy Story", 81, "John Lasseter"));
+        biblioteca.add(new Pelicula(contadorId++, "Titanic", 195, "James Cameron"));
+        biblioteca.add(new Pelicula(contadorId++, "Avatar", 162, "James Cameron"));
+        biblioteca.add(new Pelicula(contadorId++, "Inception", 148, "Christopher Nolan"));
+        biblioteca.add(new Pelicula(contadorId++, "Gladiator", 155, "Ridley Scott"));
+        biblioteca.add(new Pelicula(contadorId++, "Jurassic Park", 127, "Steven Spielberg"));
+        biblioteca.add(new Pelicula(contadorId++, "El Rey León", 88, "Roger Allers, Rob Minkoff"));
+        biblioteca.add(new Pelicula(contadorId++, "Shrek", 90, "Andrew Adamson, Vicky Jenson"));
+        biblioteca.add(new Pelicula(contadorId++, "Frozen", 102, "Chris Buck, Jennifer Lee"));
+        biblioteca.add(new Pelicula(contadorId++, "Spider-Man: No Way Home", 148, "Jon Watts"));
+        biblioteca.add(new Pelicula(contadorId++, "Doctor Strange", 115, "Scott Derrickson"));
 
         System.out.println("\n✓ " + biblioteca.size() + " materiales cargados exitosamente.");
         System.out.println("✓ Contador de ID actual: " + contadorId);
